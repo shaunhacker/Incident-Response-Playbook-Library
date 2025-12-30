@@ -43,4 +43,4 @@ These playbooks are structured to be used alongside a **SIEM** (e.g., Splunk, Se
 - [ ] Mapping each playbook directly to **MITRE ATT&CK** techniques.
 
 ---
-**Contact:** [Your Name] - [Link to LinkedIn]
+**Contact:** Thando Hlakanyana - www.linkedin.com/in/thando-hlakanyana
