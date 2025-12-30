@@ -19,3 +19,23 @@ graph TD
     H --> K[Block Sender IP/Domain]
     K --> L[Purge Email from Inbox]
     L --> M[Post-Incident Review]
+
+
+# Phishing Incident Response Playbook
+
+### 1. Detection & Analysis
+- [ ] **Analyze Header:** Check 'From' address vs. 'Return-Path' and verify SPF/DKIM/DMARC status.
+- [ ] **URL/Attachment Triage:** Scan URLs in VirusTotal/urlscan.io. Run attachments in a sandbox (e.g., Any.Run).
+- [ ] **Scope Impact:** Use SIEM/Email logs to identify all recipients of the same message.
+
+### 2. Containment
+- [ ] **Block Indicators:** Add malicious URLs/IPs to firewall and email gateway blocklists.
+- [ ] **Reset Credentials:** If the user clicked a link and entered data, immediately reset their password and revoke active sessions.
+- [ ] **Purge Email:** Delete the malicious email from all user mailboxes globally.
+
+### 3. Eradication & Recovery
+- [ ] **Endpoint Scan:** Run a full EDR/AV scan on machines that opened the attachment.
+- [ ] **MFA Review:** Verify if MFA was bypassed or if new MFA devices were registered.
+
+### 4. Post-Incident
+- [ ] **User Awareness:** Provide targeted security training to the affected users.
