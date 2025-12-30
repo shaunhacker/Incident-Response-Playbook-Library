@@ -19,6 +19,8 @@ graph TD
     H --> K[Block Sender IP/Domain]
     K --> L[Purge Email from Inbox]
     L --> M[Post-Incident Review]
+
+
 # Phishing Incident Response Playbook
 
 ### 1. Detection & Analysis
