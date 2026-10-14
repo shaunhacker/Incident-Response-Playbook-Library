@@ -17,11 +17,12 @@ The goal of this project is to demonstrate a process-oriented mindset and techni
 
 | Incident Type | Description | Link |
 | :--- | :--- | :--- |
-| **Phishing** | Investigation of suspicious emails, URL analysis, and credential harvesting. | [View Playbook](phishing-response.md) |
-| **Malware Infection** | Handling endpoint infections, persistence mechanisms, and C2 communication. | [View Playbook](malware-response.md) |
-| **Brute Force** | Responding to automated login attempts and password spraying. | [View Playbook](brute-force-response.md) |
-| **Account Compromise** | Managing unauthorized access, session revocation, and lateral movement. | [View Playbook](unauthorized-access.md) |
-| **Data Exfiltration** | Detecting and stopping unauthorized data transfers to external sources. | [View Playbook](data-exfiltration.md) |
+| **Phishing** | Investigation of suspicious emails, URL analysis, and credential harvesting. | [View Playbook](1.Phishing%20Incident%20Response%20Playbook.md) |
+| **Brute Force** | Responding to automated login attempts and password spraying. | [View Playbook](2.Brute%20Force%20Attack%20Playbook.md) |
+| **Data Exfiltration** | Detecting and stopping unauthorized data transfers to external sources. | [View Playbook](3.Data%20Exfiltration%20Playbook.md) |
+| **Malware Infection** | Handling endpoint infections, persistence mechanisms, and C2 communication. | [View Playbook](4.Malware%20Infection%20Playbook.md) |
+| **Account Compromise** | Managing unauthorized access, session revocation, and lateral movement. | [View Playbook](5.Unauthorized%20Access%20Playbook.md) |
+| **Incident Case Report** | Standardized reporting template for documenting completed incidents. | [View Playbook](6.Incident%20Case%20Report.md) |
 
 ---
 
